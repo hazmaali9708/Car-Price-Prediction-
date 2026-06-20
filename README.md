@@ -1,10 +1,4 @@
-# 🚗 Car Price Prediction Using Machine Learning
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?style=flat&logo=scikit-learn)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat&logo=jupyter)
-![R2 Score](https://img.shields.io/badge/R%C2%B2%20Score-0.9449-brightgreen?style=flat)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+#  Car Price Prediction Using Machine Learning
 
 A complete end-to-end Machine Learning pipeline to predict car prices from 26 features including engine specs, body dimensions, brand, and fuel type. Seven models are trained, evaluated, and compared — with **Random Forest achieving R² = 0.9449**.
 
@@ -24,13 +18,13 @@ A complete end-to-end Machine Learning pipeline to predict car prices from 26 fe
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Accurately pricing a car is a complex task that depends on dozens of technical and categorical factors. This project builds a predictive model that estimates car prices from physical and mechanical attributes, helping buyers, sellers, and dealers make data-driven pricing decisions.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Source:** [UCI / Kaggle Car Price Dataset](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction)
 - **Records:** 205 cars
@@ -78,7 +72,7 @@ Accurately pricing a car is a complex task that depends on dozens of technical a
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 | Model | Key Hyperparameters |
 |---|---|
@@ -94,7 +88,7 @@ Gradient Boosting was further tuned with **GridSearchCV** over 54 parameter comb
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 car-price-prediction/
@@ -122,32 +116,11 @@ car-price-prediction/
 ```
 
 ---
-
-## ⚙️ How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/hazmaali9708/car-price-prediction.git
-cd car-price-prediction
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Launch the notebook
-```bash
-jupyter notebook notebook/Car_Price_Prediction.ipynb
-```
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |---|---|
-| Python 3.8+ | Programming language |
+| Python | Programming language |
 | pandas | Data manipulation |
 | NumPy | Numerical computing |
 | Matplotlib & Seaborn | Visualization |
@@ -181,4 +154,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> ⭐ If you found this project useful, consider giving it a star!
+>  If you found this project useful, consider giving it a star!
