@@ -55,12 +55,7 @@ st.markdown("""
 # ─────────────────────────────────────────────
 @st.cache_resource
 def load_and_train():
-    url = "https://raw.githubusercontent.com/dsrscientist/dataset1/master/CarPrice_Assignment.csv"
-    try:
-       df = pd.read_csv("data/CarPrice_Assignment.csv")
-    except Exception:
-        st.error("❌ Could not load dataset. Please place 'CarPrice.csv' in the same folder and update the path.")
-        st.stop()
+   df = pd.read_csv("data/CarPrice_Assignment.csv")
 
     # Feature Engineering
     df['brand'] = df['CarName'].str.split().str[0].str.lower()
