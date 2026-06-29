@@ -55,9 +55,8 @@ st.markdown("""
 # ─────────────────────────────────────────────
 @st.cache_resource
 def load_and_train():
-   df = pd.read_csv("data/CarPrice_Assignment.csv")
-
-    # Feature Engineering
+    df = pd.read_csv("data/CarPrice_Assignment.csv")
+# Feature Engineering
     df['brand'] = df['CarName'].str.split().str[0].str.lower()
     brand_fix = {
         'alfa-romero': 'alfa-romeo', 'maxda': 'mazda',
