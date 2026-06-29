@@ -57,7 +57,7 @@ st.markdown("""
 def load_and_train():
     url = "https://raw.githubusercontent.com/dsrscientist/dataset1/master/CarPrice_Assignment.csv"
     try:
-        df = pd.read_csv(url)
+       df = pd.read_csv("CarPrice.csv")
     except Exception:
         st.error("❌ Could not load dataset. Please place 'CarPrice.csv' in the same folder and update the path.")
         st.stop()
