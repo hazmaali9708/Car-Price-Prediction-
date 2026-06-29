@@ -37,7 +37,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_and_train():
-    df = pd.read_csv("data/CarPrice_Assignment.csv")
+   df = pd.read_csv("https://raw.githubusercontent.com/hazmaali9708/Car-Price-Prediction-/main/data/CarPrice_Assignment.csv")
 
     df['brand'] = df['CarName'].str.split().str[0].str.lower()
     brand_fix = {
